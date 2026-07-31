@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="Form_box">
+      <!-- tittle -->
+      <h2 id="Form_tittle">Sign up</h2>
+      <!-- Form -->
+      <form action="#" method="post" autocomplete="off">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Ali Sadeghi"
+          class="input-box"
+        />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="you@example.com"
+          class="input-box"
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Choose a strong password"
+          class="input-box"
+        />
+
+        <label for="bio">Short Bio</label>
+        <textarea
+          name="bio"
+          id="bio"
+          rows="3"
+          placeholder="Tell usa bit about yourself..."
+          class="input-box"
+        ></textarea>
+
+        <label for="country">Country</label>
+        <select name="country" id="country" class="input-box">
+          <option value="" disabled selected>Select your country</option>
+          <option value="iran">Iran</option>
+          <option value="japan">Japan</option>
+          <option value="german">German</option>
+          <option value="spain">Spain</option>
+          <option value="usa">USA</option>
+          <option value="russia">Russia</option>
+          <option value="brazil">Brazil</option>
+        </select>
+        <div class="raio_box">
+          <label>Gender</label>
+          <label for="gender">
+            <input type="radio" name="gender" id="gender" value="Male" />
+            Male
+          </label>
+          <label for="gender2">
+            <input type="radio" name="gender" id="gender2" value="Female" />
+            Female
+          </label>
+          <label for="gender3">
+            <input type="radio" name="gender" id="gender3" value="Other" />
+            Other
+          </label>
+        </div>
+
+        <button type="submit" class="btn">Sign up</button>
+      </form>
+    </div>
+    <!-- This is the End ! -->
+  </body>
+</html>
